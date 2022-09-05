@@ -10,7 +10,7 @@ public class cl {
                 "\n Enter the String to reverse: ");
         String entry = sc.nextLine();
 
-        StringBuilder nonStrg = new StringBuilder();
+        String nonStrg ="";
 
         char ch;
 
@@ -19,7 +19,7 @@ public class cl {
 
         for (int i = 0; i<entry.length(); i++){
             ch = entry.charAt(i);
-            nonStrg.insert(0, ch);
+            nonStrg=ch+nonStrg;
 
         }
 
